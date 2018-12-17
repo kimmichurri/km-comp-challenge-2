@@ -1,5 +1,51 @@
-Navigation
+body {
+  box-sizing: border-box;
+}
 
-Side-Bar
+.sidebar {
+  background-color: orange;
+}
 
-Main Section
+.searchbar-nav {
+  background-color: yellow;
+}
+
+header {
+  background-color: lime;
+}
+
+.main-header {
+  background-color: black;
+}
+
+.main-header-buttons {
+  background-color: black;
+}
+
+.page-tabs {
+  background-color: lightblue;
+}
+
+main {
+  background-color: rebeccapurple;
+}
+
+.data-visuals {
+  background-color: black;
+}
+
+.job-description-table {
+  background-color: yellow;
+}
+
+.outside-connect {
+  background-color: orange;
+}
+
+.social-media-buttons {
+  background-color: black;
+}
+
+.outside-connext-box {
+  background-color: black;
+}
