@@ -253,14 +253,16 @@ header {
   width: 50%;
 }
 
+.data-buttons-box {
+  display: flex;
+}
 .data-visuals-buttons {
   border-radius: 100px;
   display: flex;
-  font-size: 12px;
+  font-size: 10px;
   justify-content: center;
   margin: auto;
-  padding: 5px;
-  width: 175px;
+  padding: 5px 15px 5px 15px;
 }
 
 .flex-wrapper {
