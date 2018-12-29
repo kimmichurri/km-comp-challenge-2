@@ -425,6 +425,10 @@ main {
   width: 100%;
 }
 
+.email-button:hover {
+  color: #64738A;
+}
+
 .social-media-connect-buttons i {
   float: left;
 }
@@ -465,6 +469,11 @@ main {
   text-align: left;
 }
 
+.double-left:hover {
+  color: #64738A;
+  font-weight: 900;
+}
+
 .double-right {
   background-color: #4AB5BB;
   border: none;
@@ -473,4 +482,9 @@ main {
   color: white;
   font-size: 14px;
   font-weight: 700;    
+}
+
+.double-right:hover {
+  background-color: #64738A;
+  font-weight: 900;
 }
