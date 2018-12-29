@@ -3,177 +3,246 @@
 <head>
   <title></title>
   <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="normalize.css"> 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="normalize.css"> 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <aside class="sidebar">
     <section class="headshot-name">
-      <img src="">
-      <p></p>
-      <i></i>
+      <img class="headshot"src="myers_headshot.png">
+      <span class="headshot-label" id="my-name"><p>Kimberly Myers</p></span>
+      <span class="headshot-label"><i class="fas fa-angle-down"></i></span>
     </section>
-    <hr>
-    <nav>
-      <p></p>
-      <li><i></i>HOME</li>
-      <li><i></i>JOBS</li>
-      <li><i></i>RESUMES</li>
-      <li><i></i>TASKS</li>
-      <li><i></i>CALENDAR</li>
+    <nav class="main-admin">
+      <p class="sidebar-titles">Main</p>
+      <ul>
+        <li><i class="fas fa-home"></i> HOME</li>
+        <li><i class="fas fa-briefcase"></i> JOBS</li>
+        <li><i class="fas fa-file"></i> RESUMES</li>
+        <li><i class="fas fa-clipboard"></i> TASKS</li>
+        <li><i class="fas fa-calendar-alt"></i> CALENDAR</li>
+      </ul>
     </nav>
-    <hr>
-    <nav>
-      <p></p>
-      <li><i></i>HOME</li>
-      <li><i></i>JOBS</li>
-      <li><i></i>RESUMES</li>
-      <li><i></i>TASKS</li>
-      <li><i></i>CALENDAR</li>
+    <nav class="main-admin">
+      <p class="sidebar-titles">Admin</p>
+      <ul>
+        <li><i class="fas fa-users"></i> USERS</li>
+        <li><i class="fas fa-map-marker-alt"></i> LOCATIONS</li>
+        <li><i class="fas fa-road"></i> WORKFLOWS</li>
+        <li><i class="fas fa-newspaper"></i> JOB BOARDS</li>
+        <li><i class="fas fa-share-square"></i> SOCIAL</li>
+      </ul>
     </nav>
-    <hr>
     <nav>
-      <p></p>
-      <input type="checkbox" id="administrative" name="administrative">
-      <label for="administrative">Administrative</label>
-      <input type="checkbox" id="design" name="design">
-      <label for="design">Design</label>
-      <input type="checkbox" id="executive" name="executive">
-      <label for="executive">Executive</label>
-      <input type="checkbox" id="human-resources" name="human-resources">
-      <label for="human-resources">Human Resources</label>
+      <p class="sidebar-titles">Categories</p>
+      <article class="sidebar-checkboxes">
+      <ul>
+        <li><i class="fas fa-check-square" id="yellow-check"></i> Administrative</li>
+        <li><i class="fas fa-square" id="blue-check"></i> Design</li>
+        <li><i class="fas fa-square" id="red-check"></i> Executive</li>
+        <li><i class="fas fa-square" id="green-check"></i> Human Resources</li>
+      </ul>
+        <!-- <input type="checkbox" id="administrative" name="administrative">
+        <label for="administrative">Administrative</label><br>
+        <input type="checkbox" id="design" name="design">
+        <label for="design">Design</label><br>
+        <input type="checkbox" id="executive" name="executive">
+        <label for="executive">Executive</label><br>
+        <input type="checkbox" id="human-resources" name="human-resources">
+        <label for="human-resources">Human Resources</label> -->
+      </article>
     </nav>
-  </aside>
-  <section class="searchbar-nav">
-    <i></i>
-    <i></i> 
-    <p></p>
-    <i></i>
-    <i></i>
-    <i></i>
-  </section>
-  <header>
-    <section class="main-header">
-      <h1>Customer Service Representative</h1>
-      <i></i>
-      <p></p>&middot;
-      <p></p>
-    </section>
-    <section class="main-header-buttons">
-      <button type="button">
-        <i></i>Open
-      </button>
-      <button type="button">
-        <i></i>
-      </button>
-      <button type="button">
-        <i></i>
-      </button>
-      <button type="button">
-        <i></i>
-      </button>
-    </section>
-  </header>
-  <section class="page-tabs">
-    <p>SUMMARY</p>
-    <p>APPLICANTS</p>
-    <p>JOB BOARD</p>
-    <p>INTERVIEWS</p>
-    <p>ACTIVITY</p>
-    <p>BROADCAST</p>
-    <p>NOTIFICATIONS</p>
-  </section>
-  <main>
-    <section class="data-visuals">
-      <article>
-        <div class="data-circle-chart">
-          <img src="">
-          <img src="">
-          <img src="">
-        </div>
-        <div>
-          <button type="button">TOTALS &middot; Out of 5,231 views</button>
-        </div>
+  </aside> 
+  <div class="right-side">
+    <section class="searchbar-nav">
+      <article class="nav-container-left">
+        <span class="searchbar-nav-icons"><i class="fas fa-caret-left" id="left-arrow"></i> <i class="fas fa-bars"></i></span>
+        <span class="searchbar-nav-icons-2"><i class="fas fa-search"></i></span>
+        <p class="search-text">Search for a job, task or resume</p>
       </article>
-      <article>
-        <div class="data-bar-chart">
-          <img src="">
-        </div>
-        <div>
-          <button type="button">APPLICANTS/DAY</button>
-        </div>
+      <article class="nav-container-right">
+        <span class="searchbar-nav-icons"><i class="fas fa-user-plus"></i></span>
+        <span class="searchbar-nav-icons"><i class="fas fa-calendar-alt"></i></span>
+        <span class="searchbar-nav-icons-2"><i class="fas fa-th"></i></span>
       </article>
     </section>
-    <hr><i></i><hr>
-    <section class="job-description-table">
-      <table>
-        <tr>
-          <td>JOB DESCRIPTION</td>
-          <td><i></i>EDIT</td>
-        </tr>
-        <tr>
-          <td>POSITION TITLE</td>
-          <td>Customer Service Representative</td>
-        </tr>
-        <tr>
-          <td>LOCATION</td>
-          <td>San Francisco, CA</td>
-        </tr>
-        <tr>
-          <td>EMPLOYMENT TYPE</td>
-          <td>Full-time</td>
-        </tr>
-        <tr>
-          <td>EXPERIENCE</td>
-          <td>Mid-level</td>
-        </tr>
-        <tr>
-          <td>STATUS</td>
-          <td>Open</td>
-        </tr>
-        <tr>
-          <td>DESCRIPTION</td>
-          <td>The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date in the various product shizzle; helping the bidness reduce customer service wait times while doing a backhand spring and eating a ham sandwich.</td>
-        </tr>
-        <tr>
-          <td>HIRING LEAD</td>
-          <td><img src="">Tom Tizzy</td>
-        </tr>
-        <tr>
-          <td>APPROVED SALARY</td>
-          <td>$58,000</td>
-        </tr>
-      </table>
-    </section>
-    <section class="outside-connect">
-      <article class="social-media-connect-buttons">
-        <button type="button">
-        <i></i>Post to Facebook
+    <section class="job-title">
+        <h1>Software Developer</h1>
+      </section>
+    <header>
+      <section class="main-header">
+        <a href="https://tinyurl.com/yae73ftj" target="_blank"><i class="fas fa-map-marker-alt"></i></a>
+        <a href="https://tinyurl.com/yae73ftj" target="_blank"><p>Denver, CO</p></a>
+        <p class="dot">&middot;</p>
+        <p class="preview-post-link">Preview this post</p>
+      </section>
+      <section class="main-header-buttons">
+        <button class="header-buttons" id="open-button" type="button">
+            <i class="fas fa-circle" id="green-circle"></i> OPEN
         </button>
-        <button type="button">
-        <i></i>Tweet this Job
+        <button class="header-buttons" type="button">
+            <i class="fas fa-bookmark"></i>
         </button>
-        <button type="button">
-        <i></i>Post to Linkedin
+        <button class="header-buttons" type="button">
+            <i class="fas fa-pencil-alt"></i>
         </button>
-      </article>
-      <article class="outside-connect-box">
-        <p class="outside-connect-headings"><i></i>Link to this Job</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Integer mollis neque eget vestibpend.</p>
-        add input with button here
-      </article>
-      <article class="outside-connect-box">
-        <p class="outside-connect-headings"><i></i>Use the Button Widget</p>
-        <p>This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
-        add input with button here
-      </article>
-      <article class="outside-connect-box">
-        <p class="outside-connect-headings"><i></i>Upload Resumes by Email</p>
-        <p>You can automatically upload multiple resumes to this job by emailing the address below</p>
-        add input with tomtizzy@gmail.com inside text here
-      </article>
+        <button class="header-buttons" type="button">
+            <i class="fas fa-trash-alt"></i>
+        </button>
+      </section>
+    </header>
+    <section class="page-tabs">
+      <p class="page-tab-links">SUMMARY</p>
+      <p class="page-tab-links">APPLICANTS</p>
+      <p class="page-tab-links">JOB BOARD</p>
+      <p class="page-tab-links">INTERVIEWS</p>
+      <p class="page-tab-links">ACTIVITY</p>
+      <p class="page-tab-links">BROADCAST</p>
+      <p class="page-tab-links">NOTIFICATIONS</p>
     </section>
-  </main>
+    <main>
+      <section class="data-visuals">
+        <article class="data-visuals-left">
+            <div class="flex-wrapper">
+                <div class="single-chart">
+                  <svg viewBox="0 0 36 36" class="circular-chart green">
+                    <path class="circle-bg"
+                      d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                    />
+                    <path class="circle"
+                      stroke-dasharray="80, 100"
+                      d="M18 33.9155
+                        a 15.9155 15.9155 0 0 1 0 -31.831
+                        a 15.9155 15.9155 0 0 1 0 31.831"
+                    />
+                    <text x="18" y="18.35" class="number">3,154</text>
+                    <text x="18" y="22.35" class="text">APPLICANTS</text>
+                  </svg>
+                </div>
+              <!-- BLUE CHART  -->
+                <div class="single-chart">
+                  <svg viewBox="0 0 36 36" class="circular-chart blue">
+                    <path class="circle-bg"
+                      d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                    />
+                    <path class="circle"
+                      stroke-dasharray="40, 100"
+                      d="M18 33.9155
+                        a 15.9155 15.9155 0 0 1 0 -31.831
+                        a 15.9155 15.9155 0 0 1 0 31.831"
+                    />
+                    <text x="18" y="18.35" class="number">1,546</text>
+                    <text x="18" y="22.35" class="text">INTERVIEWS</text>
+                  </svg>
+                </div>
+              
+              <!--   PURPLE CHART -->
+                <div class="single-chart">
+                  <svg viewBox="0 0 36 36" class="circular-chart purple">
+                    <path class="circle-bg"
+                      d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831"
+                    />
+                    <path class="circle"
+                      stroke-dasharray="20, 100"
+                      d="M18 33.9155
+                        a 15.9155 15.9155 0 0 1 0 -31.831
+                        a 15.9155 15.9155 0 0 1 0 31.831"
+                    />
+                    <text x="18" y="18.35" class="number">912</text>
+                    <text x="18" y="22.35" class="text">FORWARDS</text>
+                  </svg>
+                </div>
+              </div>
+            <button class="data-visuals-buttons" type="button">TOTALS &middot; Out of 5,231 views</button>
+        </article>
+        <article class="data-visuals-right">
+          <!-- <div class="data-bar-chart"> -->
+            <img src="sc2-bar-chart.png" class="data-bar-chart">
+          <!-- </div> -->
+            <button class="data-visuals-buttons" type="button">APPLICANTS/DAY</button>
+        </article>
+      </section>
+      <section class="right-page-divider">
+      <hr><i class="fas fa-chevron-circle-up"></i><hr>
+      </section>
+      <section class="job-data">
+        <article class="job-description-table">
+          <table>
+            <tr>
+              <td class="table-title" width="35%">JOB DESCRIPTION</td>
+              <td class="table-title"><span class="edit-title"><i class="fas fa-pencil-alt"></i> EDIT</span></td>
+            </tr>
+            <tr>
+              <td>POSITION TITLE</td>
+              <td>Software Developer</td>
+            </tr>
+            <tr>
+              <td>LOCATION</td>
+              <td>Denver, CO</td>
+            </tr>
+            <tr>
+              <td>EMPLOYMENT TYPE</td>
+              <td>Full-time</td>
+            </tr>
+            <tr>
+              <td>EXPERIENCE</td>
+              <td>Entry-level</td>
+            </tr>
+            <tr>
+              <td>STATUS</td>
+              <td>Open</td>
+            </tr>
+            <tr>
+              <td>DESCRIPTION</td>
+              <td>The Software Developer is responsible for interacting with and providing quality assistance to all radical computers, responsible for keeping up-to-date in the various product shizzle; helping the bidness reduce web page loading times while doing a backhand spring and eating a cuban sandwich.</td>
+            </tr>
+            <tr>
+              <td>HIRING LEAD</td>
+              <td><img src="">Tina Tizzy</td>
+            </tr>
+            <tr>
+              <td>APPROVED SALARY</td>
+              <td>$58,000</td>
+            </tr>
+          </table>
+        </article>
+        <article class="outside-connect">
+          <article class="social-media-connect-buttons">
+            <button class="facebook" type="button">
+              <i class="fab fa-facebook-f"></i> Post to Facebook
+            </button>
+            <button class="twitter" type="button">
+              <i class="fab fa-twitter"></i> Tweet this Job
+            </button>
+            <button class="linked-in"type="button">
+              <i class="fab fa-linkedin"></i> Post to Linkedin
+            </button>
+          </article>
+          <article class="outside-connect-box">
+            <p class="outside-connect-headings"><i class="fas fa-globe-americas"></i> Link to this Job</p>
+            <p class="outside-connect-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit. Integer mollis neque eget vestibpend.</p>
+            add input with button here
+          </article>
+          <article class="outside-connect-box">
+            <p class="outside-connect-headings"><i class="fas fa-window-maximize"></i> Use the Button Widget</p>
+            <p class="outside-connect-text">This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
+            add input with button here
+          </article>
+          <article class="outside-connect-box">
+            <p class="outside-connect-headings"><i class="fas fa-paper-plane"></i> Upload Resumes by Email</p>
+            <p class="outside-connect-text">You can automatically upload multiple resumes to this job by emailing the address below</p>
+            add input with tinatizzy@gmail.com inside text here
+          </article>
+        </article>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
