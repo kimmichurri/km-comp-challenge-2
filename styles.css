@@ -312,7 +312,6 @@ header {
 .data-bar-chart {
   display: flex;
   margin: auto;
-  /* padding-left: 30px; */
   width: 80%;
 }
 
@@ -406,7 +405,8 @@ main {
 
 .facebook,
 .twitter,
-.linked-in {
+.linked-in,
+.email-button {
   border: none;
   border-radius: 2px;
   color: #FFF;
@@ -414,7 +414,19 @@ main {
   font-weight: 700;
   margin-bottom: 15px;
   padding: 16px;
-  width: 95%;
+  width: 100%;
+}
+
+.email-button {
+  border: 1px solid #edeef3;
+  box-shadow: -1px 1px 2px -2px #90929E;
+  color: #90929E;
+  text-align: left;
+  width: 100%;
+}
+
+.email-button:hover {
+  color: #64738A;
 }
 
 .social-media-connect-buttons i {
@@ -443,15 +455,36 @@ main {
   font-size: 14px;
 }
 
-.outside-connect-button {
+.double-button {
   display: flex;
-  font-size: 12px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  padding: 16px;
-  width: 95%;
 }
 
-.copy-button {
+.double-left {
+  border: none;
+  border-radius: 2px;
+  box-shadow: -1px 1px 2px -2px #90929E;
+  color: #90929E;
+  font-size: 12px;
+  padding: 5%;
+  text-align: left;
+}
+
+.double-left:hover {
+  color: #64738A;
+  font-weight: 900;
+}
+
+.double-right {
   background-color: #4AB5BB;
+  border: none;
+  border-radius: 2px;
+  box-shadow: -1px 1px 2px -2px #90929E;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;    
+}
+
+.double-right:hover {
+  background-color: #64738A;
+  font-weight: 900;
 }
