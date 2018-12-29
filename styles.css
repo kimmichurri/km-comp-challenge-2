@@ -312,7 +312,6 @@ header {
 .data-bar-chart {
   display: flex;
   margin: auto;
-  /* padding-left: 30px; */
   width: 80%;
 }
 
@@ -406,7 +405,8 @@ main {
 
 .facebook,
 .twitter,
-.linked-in {
+.linked-in,
+.email-button {
   border: none;
   border-radius: 2px;
   color: #FFF;
@@ -414,7 +414,13 @@ main {
   font-weight: 700;
   margin-bottom: 15px;
   padding: 16px;
-  width: 95%;
+  width: 100%;
+}
+
+.email-button {
+  border: 1px solid #edeef3;
+  color: #90929E;
+  text-align: left;
 }
 
 .social-media-connect-buttons i {
@@ -443,15 +449,51 @@ main {
   font-size: 14px;
 }
 
-.outside-connect-button {
+/* .outside-connect-button {
+  align-items: center;
+  border-radius: 2px;
+  color: #90929E;
   display: flex;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 700;
   margin-bottom: 15px;
-  padding: 16px;
-  width: 95%;
+  overflow: hidden;
+  text-align: left;
+  width: 100%;
+} */
+
+/* #email-button {
+  padding: 10%;
+} */
+
+/* .copy-button {
+  background-color: #4AB5BB;
+  border-radius: 2px;
+  color: #FFF;
+  font-weight: bold;
+  height: 14px;
+  margin: -2px -7px -2px 25px;
+  padding: 10%;
+} */
+
+.double-button {
+  display: flex;
 }
 
-.copy-button {
+.double-left {
+  border: none;
+  border-radius: 2px;
+  color: #90929E;
+  font-size: 12px;
+  padding: 5%;
+  text-align: left;
+}
+
+.double-right {
   background-color: #4AB5BB;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;    
 }
