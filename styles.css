@@ -312,7 +312,8 @@ header {
 .data-bar-chart {
   display: flex;
   margin: auto;
-  width: 475px;
+  /* padding-left: 30px; */
+  width: 80%;
 }
 
 .right-page-divider {
@@ -399,9 +400,9 @@ main {
   padding-left: 30px;
 }
 
-.outside-connect-box {
+/* .outside-connect-box {
   padding-left: 10px;
-}
+} */
 
 .facebook,
 .twitter,
@@ -409,7 +410,6 @@ main {
   border: none;
   border-radius: 2px;
   color: #FFF;
-  display: inline-block;
   font-size: 12px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -443,3 +443,15 @@ main {
   font-size: 14px;
 }
 
+.outside-connect-button {
+  display: flex;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  padding: 16px;
+  width: 95%;
+}
+
+.copy-button {
+  background-color: #4AB5BB;
+}
