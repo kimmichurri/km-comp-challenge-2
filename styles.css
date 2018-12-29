@@ -245,6 +245,7 @@ header {
 }
 
 .data-visuals-left {
+  margin-bottom: 0px;
   width: 50%;
 }
 
@@ -264,6 +265,7 @@ header {
 
 .flex-wrapper {
   display: flex;
+  margin-bottom: 23px;
 }
 
 .single-chart {
@@ -275,7 +277,7 @@ header {
   display: block;
   margin: 10px auto;
   max-height: 250px;
-  max-width: 80%;
+  max-width: 93%;
 }
 
 .circle-bg {
@@ -311,7 +313,7 @@ header {
 
 .data-bar-chart {
   display: flex;
-  margin: auto;
+  margin: 0px auto 15px auto;
   width: 80%;
 }
 
