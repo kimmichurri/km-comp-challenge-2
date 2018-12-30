@@ -1,5 +1,4 @@
 body {
-  /* display:flex; */
   box-sizing: border-box;
   display: grid; 
   font-family: Open sans, sans-serif;
@@ -13,7 +12,6 @@ body {
   width: 100%;
 }
 
-
 /* LEFT SIDEBAR */
 
 .sidebar {
@@ -24,8 +22,8 @@ body {
 .headshot-name {
   text-align: center;
 }
+
 .headshot {
-  /* border: 5px solid #3F8DA8; */
   border-radius: 50%;
   display: block;
   margin: auto;
