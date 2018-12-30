@@ -41,8 +41,8 @@ body {
 }
 
 .headshot-name,
-ul,
-nav {
+nav,
+ul {
   background-color: #2f3848;
   color: #929DB1;
   font-size: 14px;
@@ -61,7 +61,6 @@ nav {
   font-weight: bold;
   margin: 30px 10px 0px 20px;
 }
-
 
 li {
   border-left: 2px solid #2f3848;
@@ -88,6 +87,7 @@ li:hover {
 #blue-check {
   color: #24A4FE;
 }
+
 #red-check {
   color: #EA1354;
 }
@@ -96,10 +96,9 @@ li:hover {
   color: #08A17F;
 }
 
-
 /* RIGHT PAGE CONTENT */
 
-/* NAVIGATION BAR */
+/* NAVIGATION BAR, TOP OF PAGE */
 
 .searchbar-nav {
   border-bottom: 2px solid #EDEEF3;
@@ -228,7 +227,6 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   grid-area: section;
-  /* justify-content: space-around; */
   justify-content: space-between;
   margin: 5px 50px -16px 50px;
   width: 75%;
@@ -244,6 +242,8 @@ header {
   color: #2f3848;
   font-weight: 700;
 }
+
+/* MAIN SECTION WITH CHARTS, TABLE AND SOCIAL MEDIA CONTENT */
 
 .data-visuals {
   background-color: #EAF0F5;
@@ -264,6 +264,7 @@ header {
 .data-buttons-box {
   display: flex;
 }
+
 .data-visuals-buttons {
   border-radius: 100px;
   display: flex;
@@ -341,8 +342,8 @@ hr {
 }
 
 .right-page-divider i {
-  font-size: 25px;
-  /* font-color: grey; */
+  color: #64738A;
+  font-size: 20px;
   margin: 5px;
 }
 
@@ -369,16 +370,6 @@ hr {
   color: #FFF;
 }
 
-/* .table-title p {
-  width: 40%;
-} */
-
-/* .edit-table-title {
-  width: 20%;
-  height: 90%;
-} */
-
-/* tr, */
 td {
   background-color: #FFF;
   border-bottom: 3px solid  #EDEEF3;
@@ -402,7 +393,6 @@ table {
   border-collapse: collapse;
 }
 
-
 main {
   background-color: #EAF0F5;
   padding: 40px;
@@ -412,10 +402,6 @@ main {
   grid-area: article;
   padding-left: 30px;
 }
-
-/* .outside-connect-box {
-  padding-left: 10px;
-} */
 
 .facebook,
 .twitter,
@@ -432,7 +418,7 @@ main {
 }
 
 .email-button {
-  border: 1px solid #edeef3;
+  border: 1px solid #EDEEF3;
   box-shadow: -1px 1px 2px -2px #90929E;
   color: #90929E;
   text-align: left;
@@ -520,7 +506,6 @@ main {
     width: 100%;
   }
   .page-tab-links {
-    /* font-size: .5em; */
     font-size: 90%;
     margin-bottom: 16px;
     margin-right: 10px;
@@ -536,32 +521,22 @@ main {
     display: none;
   }
   .searchbar-nav {
-    font-size: 110%;
-    display: flex;
-    justify-content: center;
     border: none;
-    /* font-size: 110%;
-    display: inline-flex;
-    justify-content: space-evenly;
-    border: none; */
-    /* float: left;
-    padding-bottom: 5%;
-    padding-left: 17%;  */
+    display: flex;
+    font-size: 110%;
+    justify-content: center;
   }
   .searchbar-nav-icons{
-    /* display: flex; */
-    flex-grow: 1;
     border: none;
+    flex-grow: 1;
     font-size: 150%;
   }
-
   .searchbar-nav-icons-2 {
+    border: none;
     display: flex;
     flex-grow: 1;
-    border: none;
     font-size: 150%;
   }
-
   .job-title {
     margin: 25px 0px -10px 0px;
     text-align: center;
