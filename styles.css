@@ -466,6 +466,12 @@ main {
   font-size: 14px;
 }
 
+.outside-connect-divider {
+  margin-bottom: 18%;
+  margin-top: 18%;
+  width: 100%;
+}
+
 .double-button {
   display: flex;
 }
