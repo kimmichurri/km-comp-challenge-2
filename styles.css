@@ -587,6 +587,10 @@ main {
     margin-top: 15px;
     padding: 0px;
   }
+  .outside-connect-divider {
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
   .double-right {
     width: 25%;
   }
