@@ -22,8 +22,10 @@ Another challenge I faced is that when I opened my site in Firefox the buttons w
 
 Kim Myers
 
-## Spec
-[https://github.com/kimmichurri/km-comp-challenge-2/blob/master/better-quality-SC3.png]
+## Spec 
+
+
+![sc3](https://github.com/kimmichurri/km-comp-challenge-2/blob/master/better-quality-SC3.png?raw=true)
       
       
 
