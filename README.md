@@ -1,19 +1,19 @@
-#Static Comp 2
+# Static Comp 2
 
-##About the site
+## About the site
 
-##Tech/Framework Used
+## Tech/Framework Used
 
-##Features
+## Features
 
-##Challenges/Wins
+## Challenges/Wins
 
-##Author
+## Author
 
-##Spec
+## Spec
 
-##My Site- Desktop
+## My Site- Desktop
 
-##My Site- Reduced Screen Size
+## My Site- Reduced Screen Size
 
-##My Site- Mobile
+## My Site- Mobile
