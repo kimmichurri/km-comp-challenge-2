@@ -23,17 +23,18 @@ Another challenge I faced is that when I opened my site in Firefox the buttons w
 Kim Myers
 
 ## Spec
-better-quality-SC3.png
+km-comp-challenge-2/better-quality-SC3.png
+      
 
 ## My Site- Desktop
-screen1.png
+km-comp-challenge-2/screen1.png
 
 ## My Site- Reduced Screen Size
-screen2.png
-screen3.png
+km-comp-challenge-2/screen2.png
+km-comp-challenge-2/screen3.png
 
 ## My Site- Mobile
-screen4.png
-screen5.png
+km-comp-challenge-2/screen4.png
+km-comp-challenge-2/screen5.png
 
 
