@@ -27,7 +27,9 @@ km-comp-challenge-2/better-quality-SC3.png
       
 
 ## My Site- Desktop
-km-comp-challenge-2/screen1.png
+
+        km-comp-challenge-2/screen1.png
+      
       
 
 ## My Site- Reduced Screen Size
