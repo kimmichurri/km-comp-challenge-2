@@ -31,16 +31,15 @@ Kim Myers
 
 ## My Site- Desktop
 
-        km-comp-challenge-2/screen1.png
-      
+![screen1](https://github.com/kimmichurri/km-comp-challenge-2/blob/master/screen1.png)      
       
 
 ## My Site- Reduced Screen Size
-km-comp-challenge-2/screen2.png
-km-comp-challenge-2/screen3.png
+![screen2](https://github.com/kimmichurri/km-comp-challenge-2/blob/master/screen2.png)  
+![screen3](https://github.com/kimmichurri/km-comp-challenge-2/blob/master/screen3.png)  
 
 ## My Site- Mobile
-km-comp-challenge-2/screen4.png
-km-comp-challenge-2/screen5.png
+![screen4](https://github.com/kimmichurri/km-comp-challenge-2/blob/master/screen4.png)  
+![screen5](https://github.com/kimmichurri/km-comp-challenge-2/blob/master/screen5.png)  
 
 
