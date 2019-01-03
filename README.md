@@ -1,5 +1,3 @@
-# I'M ADDING SOMETHING 
-
 # Static Comp 2
 
 ## About the site
